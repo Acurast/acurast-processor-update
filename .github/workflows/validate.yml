@@ -1,0 +1,26 @@
+name: Validate Versions
+
+on:
+  push:
+    paths:
+      - "versions.json"
+      - "validate.js"
+  pull_request:
+    paths:
+      - "versions.json"
+      - "validate.js"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+
+      - name: Validate versions.json
+        run: node validate.js
