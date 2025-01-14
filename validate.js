@@ -41,3 +41,5 @@ function validateVersions(versions) {
 if (!validateVersions(versions)) {
     throw new Error('Invalid versions.json structure');
 }
+
+console.log("versions.json is valid");
