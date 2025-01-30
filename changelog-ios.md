@@ -1,5 +1,21 @@
 # iOS Processor Changelog
 
+## 1.0.5 (2025-01-22)
+
+### Fixes
+
+- Attestation expiry issue
+
+## 1.0.4 (2025-01-16)
+
+### Features
+
+- Local notifications if app goes into background
+
+### Fixes
+
+- Stability improvements
+
 ## 1.0.3 (2025-01-13)
 
 ### Features
