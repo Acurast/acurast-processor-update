@@ -1,0 +1,19 @@
+{
+  "name": "Acurast Canary",
+  "id": "acurast-canary",
+  "chainType": "Live",
+  "bootNodes": [
+    "/ip4/57.129.99.69/tcp/30334/ws/p2p/12D3KooWKrSDeVQ4tVQ1eGjqVAhAW3cgMQFHNCBbJrpmupEvdD4A"
+  ],
+  "properties": {
+    "ss58Format": 42,
+    "tokenDecimals": 12,
+    "tokenSymbol": "cACU"
+  },
+  "relay_chain": "ksmcc3",
+  "para_id": 2239,
+  "codeSubstitutes": {},
+  "genesis": {
+    "stateRootHash": "0x69182a435630e11afb2b7dfd722d6195192b0e81a063379e2f8dafda094c12ae"
+  }
+}
