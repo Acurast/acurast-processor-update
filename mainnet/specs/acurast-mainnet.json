@@ -1,0 +1,19 @@
+{
+  "name": "Acurast Mainnet",
+  "id": "acurast-mainnet",
+  "chainType": "Live",
+  "bootNodes": [
+    "/ip4/82.220.91.112/tcp/30335/ws/p2p/12D3KooWMJM3htCon6tQ6FzRuWkxtwEkd3i5awZitdTviWwJX3KY"
+  ],
+  "properties": {
+    "ss58Format": 42,
+    "tokenDecimals": 12,
+    "tokenSymbol": "ACU"
+  },
+  "relay_chain": "polkadot",
+  "para_id": 3396,
+  "codeSubstitutes": {},
+  "genesis": {
+    "stateRootHash": "0x1fdedb5b3fbb589020d7fbd7cbac47e3476298b3a22a7e62ba8d82f0fa216f6b"
+  }
+}
